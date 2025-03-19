@@ -1,3 +1,4 @@
+import java.util.*;
 public class SegniZodiacali {
     public int giorno;
     public String mese;
@@ -39,7 +40,7 @@ public class SegniZodiacali {
                 } else if (giorno >= 20 && giorno <= 30) {
                     System.out.println("Il tuo segno zodiacale è Toro♉");
                 } else {
-                    System.out.println("Data non valida!");
+                    System.out.println("il giorno inserito non e' valido!");
                 }
                 break;
             case "maggio":
@@ -48,7 +49,7 @@ public class SegniZodiacali {
                 } else if (giorno >=21 && giorno <=31) {
                     System.out.println("Il tuo segno zodiacale è Gemelli♊");
                 } else {
-                    System.out.println("Data non valida!");
+                    System.out.println("il giorno inserito non e' valido!");
                 }
             break;
             case "giugno":
@@ -57,15 +58,36 @@ public class SegniZodiacali {
                 } else if (giorno >=21 && giorno <=30) {
                     System.out.println("Il tuo segno zodiacale è Cancro♋");
                 } else {
-                    System.out.println("Data non valida!");
+                    System.out.println("il giorno inserito non e' valido");
                 }
             break;
             //Gabri
             case "luglio":
+                if(giorno>=1 && giorno<=22){
+                    System.out.println("Il tuo sogno è: ♋ Cancro ");
+                }else if(giorno>=23 && giorno <=31) {
+                    System.out.println("Il tuo sogno è: ♌ Leone ");
+                } else {
+                    System.out.println("Giorno selezionato non esistente");
+                }
                 break;
             case "agosto":
+                if(giorno>=1 && giorno<=22){
+                    System.out.println("Il tuo sogno è: ♌ Leone ");
+                }else if(giorno>=23 && giorno <=31) {
+                    System.out.println("Il tuo sogno è: ♍ Vergine ");
+                } else {
+                    System.out.println("Giorno selezionato non esistente");
+                }
                 break;
             case "settembre":
+                if(giorno>=1 && giorno<=22){
+                    System.out.println("Il tuo sogno è: ♍ Vergine ");
+                }else if(giorno>=23 && giorno <=30) {
+                    System.out.println("Il tuo sogno è: ♎ Bilancia ");
+                } else {
+                    System.out.println("Giorno selezionato non esistente");
+                }
                 break;
             //stefano
             case "ottobre":
