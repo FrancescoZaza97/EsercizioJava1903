@@ -70,7 +70,7 @@ public class SegniZodiacali {
             //stefano
             case "ottobre":
                 if (giorno <= 22) {
-                    System.out.println("il tuo segno zodiacale è bilancia");
+                    System.out.println("il tuo segno zodiacale è bilancia ");
                 } else if (giorno >= 23) {
                     System.out.println("Il tuo segno zodiacale è scorpione");
                 }
@@ -87,6 +87,8 @@ public class SegniZodiacali {
                     System.out.println("il tuo segno zodiacale è sagittario");
                 } else if (giorno >= 22) {
                     System.out.println("Il tuo segno zodiacale è capricorno");
+                } else {
+                    System.out.println("Data non valida!");
                 }
                 break;
         }
