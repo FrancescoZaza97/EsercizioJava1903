@@ -1,3 +1,4 @@
+import java.util.*;
 public class SegniZodiacali {
     public int giorno;
     public String mese;
