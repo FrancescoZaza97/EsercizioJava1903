@@ -24,9 +24,13 @@ public class Calendario {
                     System.out.println("Il corso ha effettuato le lezioni di Java");
                 } else if(giorno >=9 && giorno <=17) {
                     System.out.println("Il corso ha effettuato le lezioni di Database");
-                } else if(giorno >=18 && giorno <=23) {
+                } else if(giorno >=18 && giorno <=22) {
                     System.out.println("Il corso ha effettuato lezioni di JDBC");
-                } else if (giorno ==24) {
+                } else if (giorno ==21){
+                    System.out.println("Festivo");
+                }else if (giorno==22 || giorno==23){
+                    System.out.println("Il corso ha effettuato le lezioni di JDBC");
+                }else if (giorno ==24) {
                     System.out.println("Il corso ha effettuato lezioni di Spring");
                 } else if (giorno ==25){
                     System.out.println("Festivo");
