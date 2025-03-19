@@ -39,7 +39,7 @@ public class SegniZodiacali {
                 } else if (giorno >= 20 && giorno <= 30) {
                     System.out.println("Il tuo segno zodiacale è Toro♉");
                 } else {
-                    System.out.println("Data non valida!");
+                    System.out.println("il giorno inserito non e' valido!");
                 }
                 break;
             case "maggio":
@@ -48,7 +48,7 @@ public class SegniZodiacali {
                 } else if (giorno >=21 && giorno <=31) {
                     System.out.println("Il tuo segno zodiacale è Gemelli♊");
                 } else {
-                    System.out.println("Data non valida!");
+                    System.out.println("il giorno inserito non e' valido!");
                 }
             break;
             case "giugno":
@@ -57,7 +57,7 @@ public class SegniZodiacali {
                 } else if (giorno >=21 && giorno <=30) {
                     System.out.println("Il tuo segno zodiacale è Cancro♋");
                 } else {
-                    System.out.println("Data non valida!");
+                    System.out.println("Dil giorno inserito non e' valido");
                 }
             break;
             //Gabri
