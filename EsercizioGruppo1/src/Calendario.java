@@ -56,7 +56,7 @@ public class Calendario {
 
                 } else if (giorno >= 2 && giorno <= 8) {
                 System.out.println("il corso ha effettuato le lezioni di spring");
-                } else {
+                } else if (giorno == 1) {
                 System.out.println("il 1 maggio non si è svolto il corso");
                 }
                 break;
