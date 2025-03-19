@@ -51,15 +51,17 @@ public class Calendario {
                 }
                 break;   
             case "maggio":
-                if (giorno >= 9 && giorno <= 21) {
-                System.out.println("il corso ha effettuato il project work");
-
+                if (giorno == 1) {
+                    System.out.println("il 1 maggio non si è svolto il corso");
                 } else if (giorno >= 2 && giorno <= 8) {
-                System.out.println("il corso ha effettuato le lezioni di spring");
-                } else if (giorno == 1) {
-                System.out.println("il 1 maggio non si è svolto il corso");
-                }
-                break;
+                    System.out.println("il corso ha effettuato le lezioni di spring");
+    
+                } else if (giorno >= 9 && giorno <= 21) {
+                    System.out.println("il corso ha effettuato il project work");
+                    
+                } 
+                    
+            
             default:
                 System.out.println("il mese inserito non e' valido, Riprova!");
                 break;
