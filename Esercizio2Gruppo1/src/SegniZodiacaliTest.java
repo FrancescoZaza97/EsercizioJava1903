@@ -26,5 +26,6 @@ public class SegniZodiacaliTest {
 
         giorno.close();
         mese.close();
+        ferma.close();
     }
 }
