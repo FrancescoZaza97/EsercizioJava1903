@@ -22,7 +22,7 @@ public class Calendario {
                 } else if(giorno >= 6 && giorno <= 10){
                     System.out.println("il Corso ha effettuato le lezioni di Java");
                 } else if (giorno == 11){
-                    System.out.println("il Corso ha effettuato le leszioni di GitHub");
+                    System.out.println("il Corso ha effettuato le lezioni di GitHub");
                 }else if ( giorno >= 12 && giorno <= 31){
                     System.out.println("il Corso ha effettuato le lezioni di Java");
                 } else{
