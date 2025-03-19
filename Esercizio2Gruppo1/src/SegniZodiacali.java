@@ -90,27 +90,27 @@ public class SegniZodiacali {
                 break;
             //stefano
             case "ottobre":
-                if (giorno <= 22) {
+                if (giorno>=1 && giorno <= 22) {
                     System.out.println("il tuo segno zodiacale e' bilancia");
-                } else if (giorno >= 23) {
+                } else if (giorno >= 23 && giorno <=31) {
                     System.out.println("Il tuo segno zodiacale e' scorpione");
                 }else {
                     System.out.println("il giorno inserito non e' valido");
                 }
                 break;
             case "novembre":
-                if (giorno <= 21) {
+                if (giorno>=1 && giorno <= 21) {
                     System.out.println("il tuo segno zodiacale e' scorpione");
-                } else if (giorno >= 22) {
+                } else if (giorno >= 22 && giorno <=30) {
                     System.out.println("Il tuo segno zodiacale e' sagittario");
                 }else {
                     System.out.println("il giorno inserito non e' valido");
                 }
                 break;
             case "dicembre":
-                if (giorno <= 21) {
+                if (giorno>=1 && giorno <= 21) {
                     System.out.println("il tuo segno zodiacale e' sagittario");
-                } else if (giorno >= 22) {
+                } else if (giorno >= 22 && giorno <=31) {
                     System.out.println("Il tuo segno zodiacale e' capricorno");
                 } else {
                     System.out.println("il giorno inserito non e' valido");
