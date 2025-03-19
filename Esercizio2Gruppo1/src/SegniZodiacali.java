@@ -57,7 +57,7 @@ public class SegniZodiacali {
                 } else if (giorno >=21 && giorno <=30) {
                     System.out.println("Il tuo segno zodiacale è Cancro♋");
                 } else {
-                    System.out.println("Dil giorno inserito non e' valido");
+                    System.out.println("il giorno inserito non e' valido");
                 }
             break;
             //Gabri
