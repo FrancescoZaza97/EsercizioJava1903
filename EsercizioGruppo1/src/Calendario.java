@@ -14,6 +14,7 @@ public class Calendario {
                     System.out.println("febbraio ha solo 28 giorni, checka bene DAEI!!!!");
                 }
                 break;
+
             case "marzo":
                 if (giorno >= 1 && giorno <= 4){
                     System.out.println("il Corso ha effettuato le lezioni di Web Design");
@@ -29,6 +30,7 @@ public class Calendario {
                     System.out.println("Marzo ha solo 31 giorni, checka bene DAEI!!!!");
                 }
                 break;
+
             case "aprile":
                 if (giorno >= 1 && giorno <= 8){
                     System.out.println("Il corso ha effettuato le lezioni di Java");
@@ -43,19 +45,18 @@ public class Calendario {
                 } else {
                     System.out.println("Data non valida!");
                 }
-                break;   
+                break;
+
             case "maggio":
                 if (giorno == 1) {
                     System.out.println("il 1 maggio non si è svolto il corso");
                 } else if (giorno >= 2 && giorno <= 8) {
                     System.out.println("il corso ha effettuato le lezioni di spring");
-    
                 } else if (giorno >= 9 && giorno <= 21) {
-                    System.out.println("il corso ha effettuato il project work");
-                    
+                    System.out.println("il corso ha effettuato il project work");    
                 } 
-                    
-            
+                break;
+
             default:
                 System.out.println("il mese inserito non e' valido, Riprova!");
                 break;
