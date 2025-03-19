@@ -14,12 +14,33 @@ public class SegniZodiacali {
                 break;
             //torcia umana
             case "aprile":
+                if (giorno >= 1 && giorno <= 19) {
+                    System.out.println("Il tuo segno zodiacale è Ariete♈");
+                } else if (giorno >= 20 && giorno <= 30) {
+                    System.out.println("Il tuo segno zodiacale è Toro♉");
+                } else {
+                    System.out.println("Data non valida!");
+                }
                 break;
             case "maggio":
-                break;
+                if (giorno >=1 && giorno<=20) {
+                    System.out.println("Il tuo segno zodiacale è Toro♉");
+                } else if (giorno >=21 && giorno <=31) {
+                    System.out.println("Il tuo segno zodiacale è Gemelli♊");
+                } else {
+                    System.out.println("Data non valida!");
+                }
+            break;
             case "giugno":
-                break;
-            // Gabri
+                if (giorno >=1 && giorno<=20) {
+                    System.out.println("Il tuo segno zodiacale è Gemelli♊");
+                } else if (giorno >=21 && giorno <=30) {
+                    System.out.println("Il tuo segno zodiacale è Cancro♋");
+                } else {
+                    System.out.println("Data non valida!");
+                }
+            break;
+            //Gabri
             case "luglio":
                 break;
             case "agosto":
@@ -34,6 +55,6 @@ public class SegniZodiacali {
             case "dicembre":
                 break;
         }
-    }    
+    }
 
 }
