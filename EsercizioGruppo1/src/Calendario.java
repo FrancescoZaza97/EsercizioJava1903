@@ -24,13 +24,27 @@ public class Calendario {
                 } else if (giorno == 11){
                     System.out.println("il Corso ha effettuato le leszioni di GitHub");
                 }else if ( giorno >= 12 && giorno <= 31){
-                    System.out.println("il Corso ha effettuato le leszioni di Java");
+                    System.out.println("il Corso ha effettuato le lezioni di Java");
                 } else{
                     System.out.println("Marzo ha solo 31 giorni, checka bene DAEI!!!!");
                 }
                 break;
             case "aprile":
-                
+                if (giorno >= 1 && giorno <= 8){
+                    System.out.println("Il corso ha effettuato le lezioni di Java");
+                } else if(giorno >=9 && giorno <=17) {
+                    System.out.println("Il corso ha effettuato le lezioni di Database");
+                } else if(giorno >=18 && giorno <=23) {
+                    System.out.println("Il corso ha effettuato lezioni di JDBC");
+                } else if (giorno ==24) {
+                    System.out.println("Il corso ha effettuato lezioni di Spring");
+                } else if (giorno ==25){
+                    System.out.println("Festivo");
+                }else if (giorno >=26 && giorno <=30) {
+                    System.out.println("Il corso ha effettuato lezioni di Spring");
+                } else {
+                    System.out.println("Data non valida");
+                }
                 break;   
             case "maggio":
                 
