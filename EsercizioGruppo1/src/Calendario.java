@@ -47,7 +47,7 @@ public class Calendario {
                 }else if (giorno >=26 && giorno <=30) {
                     System.out.println("Il corso ha effettuato lezioni di Spring");
                 } else {
-                    System.out.println("Data non valida");
+                    System.out.println("Data non valida!");
                 }
                 break;   
             case "maggio":
