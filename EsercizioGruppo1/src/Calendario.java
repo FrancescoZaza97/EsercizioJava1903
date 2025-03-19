@@ -6,8 +6,13 @@ public class Calendario {
     public void stampaCalendario(){
         switch (mese) {
             case "gennaio":
-                System.out.println("Corso non ancora avviato");
+                if(giorno >= 1 && giorno <= 31){
+                    System.out.println("Corso non ancora avviato");
+                }else{
+                    System.out.println("Data non esistente");
+                }
                 break;
+                
             case "febbraio":
                 if(giorno >= 1 && giorno <= 12){
                     System.out.println("Corso non ancora avviato");
@@ -59,6 +64,8 @@ public class Calendario {
                     System.out.println("il corso ha effettuato il project work");    
                 } else if (giorno >= 22 && giorno <=31){
                     System.out.println("il corso e' stato terminato");
+                } else {
+                    System.out.println("Data non esistente");
                 }
                 break;
 

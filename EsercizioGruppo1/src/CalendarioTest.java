@@ -25,5 +25,8 @@ public class CalendarioTest {
                 continua = false;
             }
         }
+        stringa.close();
+        giorno.close();
+        ferma.close();
     }
 }
