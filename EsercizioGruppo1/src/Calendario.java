@@ -4,14 +4,6 @@ public class Calendario {
 
     public void stampaCalendario() {
         switch (mese) {
-            case "gennaio":
-                if (giorno >= 1 && giorno <= 31) {
-                    System.out.println("Corso non ancora avviato");
-                } else {
-                    System.out.println("Data non esistente");
-                }
-                break;
-
             case "febbraio":
                 if (giorno >= 1 && giorno <= 12) {
                     System.out.println("Corso non ancora avviato");
@@ -27,12 +19,10 @@ public class Calendario {
                     System.out.println("il Corso ha effettuato le lezioni di Web Design");
                 } else if (giorno == 5) {
                     System.out.println("il Corso ha effettuato le lezioni di DASA");
-                } else if (giorno >= 6 && giorno <= 10) {
+                } else if ((giorno >= 6 && giorno <= 10) || (giorno >= 12 && giorno <= 31)) {
                     System.out.println("il Corso ha effettuato le lezioni di Java");
                 } else if (giorno == 11) {
                     System.out.println("il Corso ha effettuato le lezioni di GitHub");
-                } else if (giorno >= 12 && giorno <= 31) {
-                    System.out.println("il Corso ha effettuato le lezioni di Java");
                 } else {
                     System.out.println("Marzo ha solo 31 giorni, checka bene DAEI!!!!");
                 }
@@ -68,54 +58,10 @@ public class Calendario {
                 }
                 break;
 
-            case "giugno":
-                if (giorno >= 1 && giorno <= 30) {
-                    System.out.println("Corso non presente");
-                } else {
-                    System.out.println("Data non valida");
-                }
-                break;
-
-            case "luglio":
-                if (giorno >= 1 && giorno <= 31) {
-                    System.out.println("Corso non presente");
-                } else {
-                    System.out.println("Data non valida");
-                }
-                break;
-
+            case "gennaio":
             case "agosto":
-                if (giorno >= 1 && giorno <= 31) {
-                    System.out.println("Corso non presente");
-                } else {
-                    System.out.println("Data non valida");
-                }
-                break;
-            
-            case "settembre":
-                if (giorno >= 1 && giorno <= 30) {
-                    System.out.println("Corso non presente");
-                } else {
-                    System.out.println("Data non valida");
-                }
-                break;
-
+            case "luglio":
             case "ottobre":
-                if (giorno >= 1 && giorno <= 31) {
-                    System.out.println("Corso non presente");
-                } else {
-                    System.out.println("Data non valida");
-                }
-                break;
-
-            case "novembre":
-                if (giorno >= 1 && giorno <= 30) {
-                    System.out.println("Corso non presente");
-                } else {
-                    System.out.println("Data non valida");
-                }
-                break;
-
             case "dicembre":
                 if (giorno >= 1 && giorno <= 31) {
                     System.out.println("Corso non presente");
@@ -123,7 +69,17 @@ public class Calendario {
                     System.out.println("Data non valida");
                 }
                 break;
-                
+
+            case "giugno":
+            case "settembre":
+            case "novembre":
+                if (giorno >= 1 && giorno <= 30) {
+                    System.out.println("Corso non presente");
+                } else {
+                    System.out.println("Data non valida");
+                }
+                break;
+  
             default:
                 System.out.println("il mese inserito non e' valido, Riprova!");
                 break;
