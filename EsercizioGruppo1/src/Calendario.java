@@ -5,6 +5,9 @@ public class Calendario {
 
     public void stampaCalendario(){
         switch (mese) {
+            case "gennaio":
+                System.out.println("Corso non ancora avviato");
+                break;
             case "febbraio":
                 if(giorno >= 1 && giorno <= 12){
                     System.out.println("Corso non ancora avviato");
@@ -54,7 +57,9 @@ public class Calendario {
                     System.out.println("il corso ha effettuato le lezioni di spring");
                 } else if (giorno >= 9 && giorno <= 21) {
                     System.out.println("il corso ha effettuato il project work");    
-                } 
+                } else if (giorno >= 22 && giorno <=31){
+                    System.out.println("il corso e' stato terminato");
+                }
                 break;
 
             default:
