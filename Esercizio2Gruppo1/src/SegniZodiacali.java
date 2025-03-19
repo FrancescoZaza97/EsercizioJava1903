@@ -39,7 +39,7 @@ public class SegniZodiacali {
                 } else if (giorno >= 20 && giorno <= 30) {
                     System.out.println("Il tuo segno zodiacale e' Toro");
                 } else {
-                    System.out.println("il giorno inserito non e' valido!");
+                    System.out.println("il giorno inserito non e' valido");
                 }
                 break;
             case "maggio":
@@ -48,7 +48,7 @@ public class SegniZodiacali {
                 } else if (giorno >=21 && giorno <=31) {
                     System.out.println("Il tuo segno zodiacale e' Gemelli");
                 } else {
-                    System.out.println("il giorno inserito non e' valido!");
+                    System.out.println("il giorno inserito non e' valido");
                 }
                 break;
             case "giugno":
@@ -67,7 +67,7 @@ public class SegniZodiacali {
                 }else if(giorno>=23 && giorno <=31) {
                     System.out.println("Il tuo sogno e': Leone");
                 } else {
-                    System.out.println("Giorno selezionato non esistente");
+                    System.out.println("il giorno inserito non e' valido");
                 }
                 break;
             case "agosto":
@@ -76,7 +76,7 @@ public class SegniZodiacali {
                 }else if(giorno>=23 && giorno <=31) {
                     System.out.println("Il tuo sogno e': Vergine");
                 } else {
-                    System.out.println("Giorno selezionato non esistente");
+                    System.out.println("il giorno inserito non e' valido");
                 }
                 break;
             case "settembre":
@@ -85,7 +85,7 @@ public class SegniZodiacali {
                 }else if(giorno>=23 && giorno <=30) {
                     System.out.println("Il tuo sogno e': Bilancia");
                 } else {
-                    System.out.println("Giorno selezionato non esistente");
+                    System.out.println("il giorno inserito non e' valido");
                 }
                 break;
             //stefano
@@ -94,6 +94,8 @@ public class SegniZodiacali {
                     System.out.println("il tuo segno zodiacale e' bilancia");
                 } else if (giorno >= 23) {
                     System.out.println("Il tuo segno zodiacale e' scorpione");
+                }else {
+                    System.out.println("il giorno inserito non e' valido");
                 }
                 break;
             case "novembre":
@@ -101,6 +103,8 @@ public class SegniZodiacali {
                     System.out.println("il tuo segno zodiacale e' scorpione");
                 } else if (giorno >= 22) {
                     System.out.println("Il tuo segno zodiacale e' sagittario");
+                }else {
+                    System.out.println("il giorno inserito non e' valido");
                 }
                 break;
             case "dicembre":
@@ -109,7 +113,7 @@ public class SegniZodiacali {
                 } else if (giorno >= 22) {
                     System.out.println("Il tuo segno zodiacale e' capricorno");
                 } else {
-                    System.out.println("Data non valida!");
+                    System.out.println("il giorno inserito non e' valido");
                 }
                 break;
             
