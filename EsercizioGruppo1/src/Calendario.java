@@ -17,6 +17,16 @@ public class Calendario {
             case "marzo":
                 if (giorno >= 1 && giorno <= 4){
                     System.out.println("il Corso ha effettuato le lezioni di Web Design");
+                } else if(giorno == 5 ){
+                    System.out.println("il Corso ha effettuato le lezioni di DASA");
+                } else if(giorno >= 6 && giorno <= 10){
+                    System.out.println("il Corso ha effettuato le lezioni di Java");
+                } else if (giorno == 11){
+                    System.out.println("il Corso ha effettuato le lezioni di GitHub");
+                }else if ( giorno >= 12 && giorno <= 31){
+                    System.out.println("il Corso ha effettuato le lezioni di Java");
+                } else{
+                    System.out.println("Marzo ha solo 31 giorni, checka bene DAEI!!!!");
                 }
                 break;
             case "aprile":
